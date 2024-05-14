@@ -18,5 +18,7 @@ public class AverageTest {
 		
 		a.calcAverage();
 		
+		a.printAverage();
+		
 	}
 }

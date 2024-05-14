@@ -12,7 +12,7 @@ public class Average {
 	}
 	
 	public double calcAverage() {
-	return num1=num2+num3/3;
+	return (num1=num2+num3)/3;
 		
 	}
 	public void printAverage() {
