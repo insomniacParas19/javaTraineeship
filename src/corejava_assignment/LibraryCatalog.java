@@ -38,6 +38,7 @@ public class LibraryCatalog {
              isbn[i] = sc.nextLine();
              numBooks++;
          }
+         
          // Output
          System.out.println("\nBook Catalogue:");
          System.out.println("Title\tAuthor\tPrice\tPublisher\tISBN");
