@@ -8,29 +8,31 @@ public class Test {
 		
 		Scanner scanner = new Scanner(System.in);
 		//Student st = new Student();
-		Student sam = new Student();
-		Student john = new Student();
+		Student s1 = new Student();
+		
 		System.out.println("Enter the phone number:");
-		sam.phone_no =scanner.nextInt();
+		s1.phone_no =scanner.nextInt();
 		System.out.println("Enter roll. no.\n");
-		sam.roll_no=scanner.nextInt();
+		s1.roll_no=scanner.nextInt();
 		System.out.println("Enter address:\n");
-		sam.address = scanner.nextLine();
+		s1.address = scanner.nextLine();
+		
+		Student s2 = new Student();
 		
 		System.out.println("John\n");
 		System.out.println("Enter the phone number:\n");
-		john.phone_no =scanner.nextInt();
+		s2.phone_no =scanner.nextInt();
 		System.out.println("Enter roll no.:\n");
-		john.roll_no=scanner.nextInt();
+		s2.roll_no=scanner.nextInt();
 		System.out.println("Enter address:\n");
-		john.address = scanner.nextLine();
+		s2.address = scanner.nextLine();
 		
 		//st.roll_no= 2;
 		//st.name= "John";
 		
 		//st.printDetails();
-		sam.printSDetails();
-		john.printSDetails();
+		s1.printSDetails();
+		s2.printSDetails();
 			
 	}
 }
