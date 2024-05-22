@@ -31,6 +31,7 @@ public class RunEmployeeArray {
 		for (Employee e : emp) {
             totalSalary += e.getSalary();
         }
+		System.out.println(totalSalary);
 		
 		System.out.println("\n----Employee Status Info------\n");
 		
